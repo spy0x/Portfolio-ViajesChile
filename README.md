@@ -1,6 +1,6 @@
 # Viajes Chile
 
-Esta es una maqueta de una página web del rubro del turismo en Chile. Se desarrolló como prueba para el final de módulo del curso Fullstack Python Trainee, dictado en la OTEC Edutecno.
+Esta es una maqueta de una página web de Turismo en Chile. Se desarrolló como prueba para el final de módulo del curso Fullstack Python Trainee, dictado en la OTEC Edutecno.
 
 ## Cómo se visualiza
 

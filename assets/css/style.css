@@ -7,3 +7,7 @@
 .texto {
  font-family: 'EB Garamond', serif;
 }
+.fondo-celeste {
+ background-color: #0dcaf0;
+ background-size: cover;
+}

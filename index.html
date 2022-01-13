@@ -183,22 +183,31 @@
                 <div>
                     <label for="inputName" class="form-label text-white opacity-75 titulo">Nombre</label>
                 </div>
-                <input class="form-control" type="text" placeholder="">
+                <input class="form-control"  data-bs-toggle="tooltip" data-bs-placement="top" title="Escribe aquí tu nombre" type="text" placeholder="">
             </div>
             <div class="col-9 col-md-6 col-lg-3 mb-3 d-block mx-auto">
                 <div>
                     <label for="inputAsunto" class="form-label text-white opacity-75 titulo">Asunto</label>
                 </div>
-                <input class="form-control" type="text" placeholder="">
+                <input class="form-control" data-bs-toggle="tooltip" data-bs-placement="top" title="Escribe aquí tu asunto" type="text" placeholder="">
             </div>
             <div class="col-9 col-md-6 col-lg-3 mb-3 d-block mx-auto">
                 <label for="inputTexto" class="form-label text-white opacity-75 titulo">Mensaje</label>
-                <textarea class="form-control" id="inputTexto" rows="5"></textarea>
+                <textarea class="form-control" data-bs-toggle="tooltip" data-bs-placement="top" title="Escribe aquí tu mensaje" id="inputTexto" rows="5"></textarea>
             </div>
             <div class="col-9 col-md-6 col-lg-3 mb-3 mx-auto">
-                <button type="submit" class="btn btn-primary">Enviar</button>
+                <button type="submit" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal-mensajeEnviado">Enviar</button>
             </div>
         </form>
+        <!--MODAL ESTRUCTURA-->
+        <div class="modal fade" id="modal-mensajeEnviado">
+            <div class="modal-dialog">
+                <div class="modal-content p-5 bg-dark text-white text-center titulo">
+                    El mensaje ha sido enviado, ¡Gracias! Te contactaremos a la brevedad...
+                </div>
+            </div>
+        </div>
+        <!--  -->
     </section>
 
     <!--PIE DE PAGINA-->
@@ -208,10 +217,10 @@
                 <h2 class="text-center text-white text-uppercase titulo my-auto">Vamos Chile</h2>
             </div>
             <div class="col-6 d-flex justify-content-center">    
-                <a href="https://www.github.com" target="_blank"><i class="text-white text-center fa-2x mx-2 my-auto fab fa-github-square "></i></a>
-                <a href="https://www.linkedin.com" target="_blank"><i class="text-white text-center fa-2x mx-2 my-auto fab fa-linkedin"></i></a>
-                <a href="https://www.twitter.com" target="_blank"><i class="text-white text-center fa-2x mx-2 my-auto fab fa-twitter-square"></i></a>
-                <a href="https://www.facebook.com" target="_blank"><i class="text-white text-center fa-2x mx-2 my-auto fab fa-facebook-square"></i></a>
+                <a href="https://www.github.com" target="_blank"><i class="text-white text-center fa-2x mx-2 my-auto fab fa-github-square" data-bs-toggle="tooltip" data-bs-placement="top" title="Github"></i></a>
+                <a href="https://www.linkedin.com" target="_blank"><i class="text-white text-center fa-2x mx-2 my-auto fab fa-linkedin" data-bs-toggle="tooltip" data-bs-placement="top" title="Linkedin"></i></a>
+                <a href="https://www.twitter.com" target="_blank"><i class="text-white text-center fa-2x mx-2 my-auto fab fa-twitter-square" data-bs-toggle="tooltip" data-bs-placement="top" title="Twitter"></i></a>
+                <a href="https://www.facebook.com" target="_blank"><i class="text-white text-center fa-2x mx-2 my-auto fab fa-facebook-square" data-bs-toggle="tooltip" data-bs-placement="top" title="Facebook"></i></a>
             </div>
         </section>
     </footer>

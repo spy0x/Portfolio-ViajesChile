@@ -1,3 +1,9 @@
 ﻿body
 {
 }
+.titulo {
+ font-family: 'Montserrat', sans-serif;
+}
+.texto {
+ font-family: 'EB Garamond', serif;
+}

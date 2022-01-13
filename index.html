@@ -43,16 +43,16 @@
         <div class="collapse navbar-collapse ps-4" id="navbarNav">
             <ul class="navbar-nav ms-auto me-5 titulo">
                 <li class="nav-item active">
-                    <a class="nav-link" href="#">Inicio<span class="sr-only">(current)</span></a>
+                    <a class="nav-link" href="#carouselExampleControls">Inicio<span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item d-none d-md-block">
+                    <a class="nav-link" href="#section-quienesomos">Quienes Somos</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Quienes Somos</a>
+                    <a class="nav-link" href="#section-destacados">Destacados</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Destacados</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Contacto</a>
+                    <a class="nav-link" href="#section-contacto">Contacto</a>
                 </li>
             </ul>
         </div>
@@ -61,7 +61,7 @@
 
     <!--CAROUSEL-->
     <main>
-        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+        <div id="carouselExampleControls" class="main carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
                 <div class="carousel-item active">
                     <img src=".\assets\img\carousel1.jpg" class="d-block w-100" alt="...">
@@ -86,7 +86,7 @@
     <!--  -->
 
     <!--SECCION QUIENES SOMOS-->
-    <section class="container-fluid d-none d-md-block">
+    <section class="main container-fluid d-none d-md-block" id="section-quienesomos">
         <h3 class="titulo text-uppercase text-center text-white mt-3">Quiénes Somos</h3>
         <hr class="opacity-100 text-white my-3 mx-auto w-75">
         <article class="row">
@@ -125,7 +125,7 @@
     <!--  -->
 
     <!--SECCION DESTACADOS TARJETAS -->
-    <section class="container-fluid">
+    <section class="main container-fluid" id="section-destacados">
         <h3 class="titulo text-uppercase text-center text-white mt-3 mt-md-0">Destacados</h3>
         <hr class="opacity-100 text-white my-3 mx-auto w-75">
         <article class="row">
@@ -175,7 +175,7 @@
     <!--  -->
 
     <!--SECCION CONTACTO FORMULARIO-->
-    <section class="container-fluid">
+    <section class="main container-fluid" id="section-contacto">
         <h3 class="titulo text-uppercase text-center text-white mt-3">Contacto</h3>
         <hr class="opacity-100 text-white my-3 mx-auto w-75">
         <form class="">

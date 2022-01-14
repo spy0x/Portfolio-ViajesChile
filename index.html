@@ -43,16 +43,16 @@
         <div class="collapse navbar-collapse ps-4" id="navbarNav">
             <ul class="navbar-nav ms-auto me-5 titulo">
                 <li class="nav-item active">
-                    <a class="nav-link" href="#carouselExampleControls">Inicio<span class="sr-only">(current)</span></a>
+                    <a class="nav-link active" href="#carouselExampleControls">Inicio<span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item d-none d-md-block">
-                    <a class="nav-link" href="#section-quienesomos">Quienes Somos</a>
+                    <a class="nav-link active" href="#section-quienesomos">Quienes Somos</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#section-destacados">Destacados</a>
+                    <a class="nav-link active" href="#section-destacados">Destacados</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#section-contacto">Contacto</a>
+                    <a class="nav-link active" href="#section-contacto">Contacto</a>
                 </li>
             </ul>
         </div>
@@ -196,7 +196,9 @@
                 <textarea class="form-control" data-bs-toggle="tooltip" data-bs-placement="top" title="Escribe aquí tu mensaje" id="inputTexto" rows="5"></textarea>
             </div>
             <div class="col-9 col-md-6 col-lg-3 mb-3 mx-auto">
-                <button type="submit" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal-mensajeEnviado">Enviar</button>
+                <a href="#section-contacto" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal-mensajeEnviado">
+                   Enviar
+                </a>
             </div>
         </form>
         <!--MODAL ESTRUCTURA-->
